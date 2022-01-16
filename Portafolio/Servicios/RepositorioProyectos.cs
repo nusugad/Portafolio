@@ -16,10 +16,10 @@ namespace Portafolio.Servicios
 
               new ProyectoDTO
             {
-                Titulo = "Amazon",
-                Descripcion = "E-Commerce realizado en ASP.Net Core",
-                Imagen = "/img/Corte1.jpg",
-                Link = "https://amazon.com"
+                Titulo = "Portafolio",
+                Descripcion = "Portafolio desarrollado en ASP.NET MVC 6 aplicando los principios SOLID.",
+                Imagen = "/img/portafolio.png",
+                Link = "https://github.com/nusugad/Portafolio/"
             }
             };
         }
