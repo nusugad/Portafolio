@@ -19,7 +19,8 @@ namespace Portafolio.Servicios
                 Titulo = "Portafolio",
                 Descripcion = "Portafolio desarrollado en ASP.NET MVC 6 aplicando los principios SOLID.",
                 Imagen = "/img/portafolio.png",
-                Link = "https://github.com/nusugad/Portafolio/"
+                Link = "https://portafolionicolasusuga.azurewebsites.net/",
+                LinkGit = "https://github.com/nusugad/Portafolio/"
             }
             };
         }

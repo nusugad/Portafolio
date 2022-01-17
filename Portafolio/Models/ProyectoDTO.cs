@@ -8,5 +8,6 @@ namespace Portafolio.Models
         public string Descripcion { get; set; }
         public string Imagen { get; set; }
         public string Link { get; set; }
+        public string LinkGit { get; set; }
     }
 }
