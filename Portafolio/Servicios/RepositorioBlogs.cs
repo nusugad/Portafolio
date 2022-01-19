@@ -16,11 +16,8 @@ namespace Portafolio.Servicios
             {
                 id = 1,
                 Titulo = "Portafolio",
-                Texto = "In semper, eros a varius hendrerit, libero nisl tincidunt diam, id gravida risus nulla ac est. " +
-                "Etiam ac posuere lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed diam volutpat, " +
-                "luctus ante eu, euismod sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac " +
-                "turpis egestas. Ut eu placerat purus, non egestas leo. Etiam ut vestibulum sapien. Orci varius natoque " +
-                "penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti.",
+                Texto = "Este proyecto tiene como fin presentar en un solo lugar los diferentes proyectos que he desarrollado. Cada proyecto viene acompañado de un título, descripción, imagen y tres botones que redirigen a la página del proyecto, github y el blog respectivamente. De esta forma es muy fácil para otras personas acceder a toda la información del proyecto. " +
+                "Cabe recalcar que el portafolio se realizó con Asp.Net MVC 6 aplicando los principios SOLID con el fin de construir una aplicación organizada y de calidad. No se utiliza ningún tipo de base de datos, es decir, toda la información que maneja la aplicación está en memoria ya que es suficiente para cumplir con las necesidades del proyecto.",
                 Imagen = "/img/portafolio.png",
             }
             };

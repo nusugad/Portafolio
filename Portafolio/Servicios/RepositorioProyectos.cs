@@ -13,8 +13,7 @@ namespace Portafolio.Servicios
         public List<ProyectoDTO> ObtenerProyectos() 
         {
             return new List<ProyectoDTO>() {
-
-             new ProyectoDTO
+                 new ProyectoDTO
             {
                 id = 1,
                 Titulo = "Portafolio",
@@ -22,6 +21,15 @@ namespace Portafolio.Servicios
                 Imagen = "/img/portafolio.png",
                 Link = "https://portafolionicolasusuga.azurewebsites.net/",
                 LinkGit = "https://github.com/nusugad/Portafolio/"
+            },
+                new ProyectoDTO
+            {
+                id = 2,
+                Titulo = "",
+                Descripcion = "",
+                Imagen = "/img/under-contruction.png",
+                Link = "",
+                LinkGit = ""
             }
             };
         }

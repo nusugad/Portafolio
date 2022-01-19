@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<BlogDTO>
 
-@if (Model is not null)
+@if (Model != null && Model.Any())
 {
     <div class="container">
         @foreach (var blog in Model)
@@ -9,10 +9,21 @@
                 <div class="col col-md-15">
                     <h1>@blog.Titulo</h1>
                     <p>@blog.Texto</p>
-                    <img src="@blog.Imagen" class="img-fluid" alt="Imagen blog" id="blog-mid" />
-                    <div><a asp-action="Index" asp-controller="Home" class="btn-primary btn-primary">Volver a la página principal</a></div>
+                    <img src="@blog.Imagen" class="img-fluid img-blog" alt="Imagen blog" />
+                    <div><a asp-action="Index" asp-controller="Home" class="btn btn-primary">Volver a la página principal</a></div>
                 </div>
             </div>
         }
+    </div>
+}
+else
+{
+    <div class="row justify-content-center text-center">
+        <div class="col col-md-15">
+            <h1>No se ha ecnontrado información.</h1>
+            <p>Actualmente estyo trabajando en información para ese blog.</p>
+            <img src="~/img/under-contruction.png" class="img-fluid img-blog" alt="Imagen blog"  />
+            <div><a asp-action="Index" asp-controller="Home" class="btn btn-primary">Volver a la página principal</a></div>
+        </div>
     </div>
 }
